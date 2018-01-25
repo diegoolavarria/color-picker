@@ -90,9 +90,9 @@ export default class ColorPicker extends React.Component {
   }
 
   onPanelMount(panelDOMRef) {
-    if (this.state.open) {
-      panelDOMRef.focus();
-    }
+//     if (this.state.open) {
+//       panelDOMRef.focus();
+//     }
   }
 
   setOpen(open, callback) {
